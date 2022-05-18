@@ -1,0 +1,12 @@
+section div {
+    padding: 20px;
+    line-height: 24px;
+}
+section header {
+    padding: 20px;
+    font-size: 30px;
+    line-height: 45px;
+}
+section div:nth-child(even) {
+    background-color: #eee;
+}

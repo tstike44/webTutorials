@@ -1,0 +1,8 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Examples introducing Jest.",
+  "main": "index.js",
+  "author": "Taylor Blanche",
+  "license": "ISC"
+}

@@ -1,0 +1,38 @@
+.grand-parent {
+    background-color: chartreuse;
+    height: 100px;
+    position: relative;
+}
+.parent {
+    background-color: blue;
+}
+
+.box-1 {
+    position: relative;
+    top: 5px;
+    right: -5px;
+    background-color: red;
+    color: black;
+}
+
+.box-2 {
+    position: fixed;
+    bottom: 5px;
+    right: -5px;
+    background-color: wheat;
+}
+
+.grand-parent .box-2 {
+    color: black;
+}
+
+.box-3 {
+    background-color: turquoise;
+}
+
+.box-4 {
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    background-color: blueviolet;
+}

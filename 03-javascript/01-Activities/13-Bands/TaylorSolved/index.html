@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var bands = ["acdc", "tenacious d", "doors"];
+        var userBand = prompt("What is your favorite band?");
+        var userBandIndex = bands.indexOf(userBand.toLowerCase());
+        if (userBandIndex === -1) {
+            // not found in array
+            alert("I don't know that band.");
+        } else {
+            // found in array
+            alert("ROCK ON! I love that band too.");
+        }
+    </script>
+</body>
+</html>

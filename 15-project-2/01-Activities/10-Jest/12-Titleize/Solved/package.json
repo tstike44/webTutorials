@@ -1,0 +1,22 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "Solutions to Jest introduction exercises.",
+  "main": "titleize.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "automock": false,
+    "verbose": true,
+    "collectCoverageFrom": [
+      "titleize.js"
+    ],
+    "collectCoverage": true
+  },
+  "author": "Taylor Blanche",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}

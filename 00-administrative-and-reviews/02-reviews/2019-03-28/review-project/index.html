@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <button type="button" class="btn btn-info class-button" data-class="" id="no-filter">#No Filter</button>
+                <button type="button" class="btn btn-primary class-button" data-class="calculus">Calculus</button>
+                <button type="button" class="btn btn-secondary class-button" data-class="dance">Dance</button>
+                <button type="button" class="btn btn-success class-button"  data-class="coding boot camp">Coding Boot Camp</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <form>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Class</th>
+                                <th scope="col">Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody id="student-table">
+                            <!-- use jQuery to add to table. in index.js -->
+                        </tbody>
+                    </table>
+                    <div class="form-group">
+                        <label for="name">Student's Name</label>
+                        <input class="form-control" id="name" placeholder="e.g. Taylor">
+                        <div class="invalid-feedback" id="name-invalid">
+                            Please choose a username.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="student-class">Student's Class</label>
+                        <input class="form-control" id="student-class" placeholder="e.g. Calculus">
+                        <div class="invalid-feedback" id="class-invalid">
+                                Please choose a username.
+                            </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="grade">Student's Grade</label>
+                        <select class="form-control" id="grade">
+                            <option value="">Select a Grade</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="F">F</option>
+                        </select>
+                        <div class="invalid-feedback" id="grade-invalid">
+                                Please choose a username.
+                            </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="add-student">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

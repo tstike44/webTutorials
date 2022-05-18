@@ -1,0 +1,14 @@
+.image-container {
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+
+.image-text {
+    width: 400px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    bottom: 10px;
+    background-color: white;
+}

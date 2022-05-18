@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #3c90a9;
+    padding: 20px;
+    color: #ecfbff;
+}
+
+nav::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+nav a, nav span {
+    margin-right: 10px
+}
+
+nav a:visited {
+    color: #ecfbff;
+}
+
+nav a:link {
+    color: #ecfbff;
+}
+
+nav a:hover {
+    background-color: #ecfbff;
+    color: #3c90a9;
+}
+
+nav a:focus {
+    background-color: #ecfbff;
+    color: #3c90a9;
+}
+
+nav a:active {
+    background-color: #030a0c;
+}
+
+.header {
+    float: left;
+}
+
+.nav-links {
+    float: right;
+}

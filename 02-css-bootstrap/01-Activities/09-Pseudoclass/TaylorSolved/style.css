@@ -1,0 +1,33 @@
+.button1, .button2 {
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    padding: 20px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.button1 {
+    background-color: green;
+}
+.button2 {
+    background-color: maroon;
+}
+
+.button1:hover {
+    background-color: #01ab01;
+}
+
+.button2:hover {
+    background-color: #b70909;
+}
+
+.button1:active {
+    background-color: #005200;
+
+}
+
+.button2:active {
+    background-color: #5f0101;
+}

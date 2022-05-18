@@ -1,0 +1,13 @@
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+}
+
+.option {
+    border: 1px solid grey;
+}

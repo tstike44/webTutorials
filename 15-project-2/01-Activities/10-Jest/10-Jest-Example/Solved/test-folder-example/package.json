@@ -1,0 +1,22 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Examples introducing Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Taylor Blanche",
+  "license": "ISC",
+  "jest": {
+    "automock": false,
+    "verbose": true,
+    "collectCoverageFrom": [
+      "multiply.js"
+    ],
+    "collectCoverage": true
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}

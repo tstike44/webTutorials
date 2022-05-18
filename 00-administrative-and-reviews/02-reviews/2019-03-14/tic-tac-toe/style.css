@@ -1,0 +1,19 @@
+.square {
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
+    float: left; 
+    text-align: center;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.start {
+    clear: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

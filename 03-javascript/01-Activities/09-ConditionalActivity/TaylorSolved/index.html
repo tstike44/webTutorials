@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var eatSteak = confirm("Do you eat steak?");
+        if (eatSteak) {
+            document.write("Here’s a Steak Sandwich! ")
+        } else {
+            document.write("Here’s a Tofu Stir-Fry! ")
+        }
+        var birthYear = parseInt(prompt("What is your birth year?"));
+        if (birthYear > 1998) {
+            document.write("No sake for you. ");
+        } else if (birthYear == 1998) {
+            document.write("You scooched by. ")
+        } else if (isNaN(birthYear)) {
+            document.write("Incorrect input.");
+        } else {
+            document.write("Cheers. ");
+        }
+    </script>
+</body>
+</html>

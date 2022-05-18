@@ -1,0 +1,22 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "Solutions to Jest introduction exercises.",
+  "main": "disemvowel.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "automock": false,
+    "verbose": true,
+    "collectCoverageFrom": [
+      "disemvowel.js"
+    ],
+    "collectCoverage": true
+  },
+  "author": "Taylor Blanche",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
